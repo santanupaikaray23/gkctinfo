@@ -1,0 +1,79 @@
+.imageContainer{
+    background: url('https://i.ibb.co/RCJJ8sk/your-success.jpg');
+    border-style: solid ;
+    border-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: -60px; */
+
+}
+body{
+    margin: auto;
+}
+.logo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 90px;
+    height:150px;
+    width:150px;
+    margin:auto;
+    border-radius:80%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+} */
+img{
+    height:50px;
+    width:50px;
+   
+    
+
+}
+.wrapper{
+    width: 100%;
+    height: 200px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+.heading{
+    text-align:center;
+    color:rgba(52, 38, 245, 0.687);
+    font-size:36px;
+
+}
+
+h5{
+    text-align: left;
+    color: blue;
+    line-height: .01;
+    letter-spacing: normal;
+    font-size:38px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: -400px;
+
+
+    
+ 
+}
+p{
+    font-size: inherit;
+    color: crimson;
+    line-height: .01;
+    letter-spacing: normal;
+    font-size:18px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+p1{
+    text-align: left;
+    color: black;
+    letter-spacing: normal;
+    font-size:25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+
+    }
+}

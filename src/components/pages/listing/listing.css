@@ -1,0 +1,53 @@
+.item {
+    width: 100%; /* Make the width responsive */
+    max-width: 875px; /* Maximum width */
+    height: auto; /* Adjust height automatically */
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin: 20px auto; /* Center the item */
+    padding: 20px; /* Add some padding */
+}
+
+.service_name {
+    width: 100%; /* Make width responsive */
+    font-family: Poppins;
+    font-size: 25px; /* Consider making font size responsive as well */
+    font-weight: 600;
+    text-align: left;
+    color: #192f60;
+    margin-bottom: 10px; /* Add some space below */
+}
+
+.Image {
+    width: 80%; /* Make width responsive */
+    max-width: 280px; /* Maximum width */
+    height: auto; /* Adjust height automatically */
+    border-radius: 23px;
+    background-color: #ea6060;
+    margin: 0 auto; /* Center the image */
+    display: block; /* Needed to center the image */
+}
+
+.name {
+    width: 100%; /* Make width responsive */
+    font-family: Poppins;
+    font-size: 16px;
+    text-align: left;
+    color: #192f60;
+    margin-top: 10px; /* Add some space above */
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    .service_name, .name {
+        font-size: 20px; /* Smaller font size for smaller devices */
+    }
+
+    .Image {
+        width: 90%; /* Allow the image to take more space */
+    }
+
+    .item {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+}

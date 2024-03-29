@@ -1,0 +1,45 @@
+.panel {
+    margin: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.panel-heading h7 {
+    font-size: 2rem; /* Responsive font size */
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+.img-responsive {
+    max-width: 100%; /* Ensures image is not wider than its container */
+    height: auto; /* Maintains aspect ratio */
+    padding: 15px; /* Reduced padding for smaller screens */
+}
+
+.btn {
+    display: block; /* Ensure buttons don't overlap on smaller screens */
+    width: auto; /* Adjust based on preference */
+    margin: 10px 0; /* Add space between buttons */
+}
+
+/* Tablet devices (screens less than 768px wide) */
+@media (max-width: 768px) {
+    .panel-heading h7 {
+        font-size: 1.5rem; /* Adjust font size for tablets */
+    }
+    
+   
+}
+
+/* Mobile devices (screens less than 480px wide) */
+@media (max-width: 480px) {
+    .panel-heading h7 {
+        font-size: 1.2rem; /* Adjust font size for mobile */
+    }
+    
+   
+    .btn {
+        margin: 5px 0; /* Reduce space between buttons for mobile screens */
+    }
+}
