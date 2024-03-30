@@ -1,0 +1,23 @@
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Assuming you want to keep the desktop layout fairly similar */
+@media (max-width: 768px) {
+    /* This targets screens smaller than 768px, typically tablets and mobile phones */
+    .form-group label,
+    .form-group input,
+    .btn {
+        width: 95%; /* Make inputs and button take full width */
+        margin-top: 5px; /* Add a little margin on top for spacing */
+    }
+
+    .panel-heading,
+    .form-control {
+        margin: 0 10px; /* Add some margin to the sides */
+    }
+
+    .btn {
+        margin-top: 10px; /* Additional margin for the submit button for better spacing */
+    }
+}
