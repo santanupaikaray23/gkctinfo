@@ -4,7 +4,7 @@
 }
 
 .panel-heading h7 {
-    font-size: 2rem; /* Responsive font size */
+    font-size: 2rem; 
 }
 
 .panel-body {
@@ -12,34 +12,34 @@
 }
 
 .img-responsive {
-    max-width: 100%; /* Ensures image is not wider than its container */
-    height: auto; /* Maintains aspect ratio */
-    padding: 15px; /* Reduced padding for smaller screens */
+    max-width: 100%; 
+    height: auto; 
+    padding: 15px;
 }
 
 .btn {
-    display: block; /* Ensure buttons don't overlap on smaller screens */
-    width: auto; /* Adjust based on preference */
-    margin: 10px 0; /* Add space between buttons */
+    display: block; 
+    width: auto; 
+    margin: 10px 0; 
 }
 
-/* Tablet devices (screens less than 768px wide) */
+
 @media (max-width: 768px) {
     .panel-heading h7 {
-        font-size: 1.5rem; /* Adjust font size for tablets */
+        font-size: 1.5rem; 
     }
     
    
 }
 
-/* Mobile devices (screens less than 480px wide) */
+
 @media (max-width: 480px) {
     .panel-heading h7 {
-        font-size: 1.2rem; /* Adjust font size for mobile */
+        font-size: 1.2rem; 
     }
     
    
     .btn {
-        margin: 5px 0; /* Reduce space between buttons for mobile screens */
+        margin: 5px 0; 
     }
 }

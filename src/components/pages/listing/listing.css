@@ -1,53 +1,53 @@
 .item {
-    width: 100%; /* Make the width responsive */
-    max-width: 875px; /* Maximum width */
-    height: auto; /* Adjust height automatically */
+    width: 100%;
+    max-width: 875px; 
+    height: auto;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     background-color: #ffffff;
-    margin: 20px auto; /* Center the item */
-    padding: 20px; /* Add some padding */
+    margin: 20px auto; 
+    padding: 20px; 
 }
 
 .service_name {
-    width: 100%; /* Make width responsive */
+    width: 100%; 
     font-family: Poppins;
-    font-size: 25px; /* Consider making font size responsive as well */
+    font-size: 25px; 
     font-weight: 600;
     text-align: left;
     color: #192f60;
-    margin-bottom: 10px; /* Add some space below */
+    margin-bottom: 10px; 
 }
 
 .Image {
-    width: 80%; /* Make width responsive */
-    max-width: 280px; /* Maximum width */
-    height: auto; /* Adjust height automatically */
+    width: 80%; 
+    max-width: 280px; 
+    height: auto; 
     border-radius: 23px;
     background-color: #ea6060;
-    margin: 0 auto; /* Center the image */
-    display: block; /* Needed to center the image */
+    margin: 0 auto; 
+    display: block; 
 }
 
 .name {
-    width: 100%; /* Make width responsive */
+    width: 100%; 
     font-family: Poppins;
     font-size: 16px;
     text-align: left;
     color: #192f60;
-    margin-top: 10px; /* Add some space above */
+    margin-top: 10px; 
 }
 
-/* Media query for screens smaller than 600px */
+
 @media (max-width: 600px) {
     .service_name, .name {
-        font-size: 20px; /* Smaller font size for smaller devices */
+        font-size: 20px; 
     }
 
     .Image {
-        width: 90%; /* Allow the image to take more space */
+        width: 90%; 
     }
 
     .item {
-        padding: 10px; /* Reduce padding on smaller screens */
+        padding: 10px; 
     }
 }

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import QuickDisplay from '../components/QuickDisplay';
 
 
- const url = "http://localhost:9600/services";
+ const url = "https://node-api-freelance.onrender.com/services";
 
 class QuickSearch extends Component{
     constructor(){
