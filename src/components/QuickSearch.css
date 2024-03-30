@@ -82,7 +82,7 @@
         overflow: hidden; /* Helps with handling the image */
         width:300px;
         height: 150px;
-        margin-left: -50px;
+        margin-left: -100px;
     }
     
     .tileComponent1 img {
@@ -104,6 +104,7 @@
     /* Basic responsive typography */
     .quickSearchHeading {
         text-align: center;
+        margin-left: -100px;
     }
     
     .quickSearchSubHeading {

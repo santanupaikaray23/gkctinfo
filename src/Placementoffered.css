@@ -46,8 +46,10 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
   }
   @media (max-width: 600px) {
-    .responsive{
-        display: none;
+    .placementofferedContainer {
+      padding: 10px;
     }
-  
+    .placementofferedHeading {
+      font-size: 16px;
+    }
   }

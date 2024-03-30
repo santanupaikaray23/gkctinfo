@@ -61,7 +61,7 @@ const Placementoffered =(props)=>{
   </div>
   <div> </div>
 </Carousel>
-
+<hr/>
                 </div>  
                 
                  
