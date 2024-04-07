@@ -28,23 +28,21 @@ const ListingDisplay = (props) => {
 
             }else{
                 return(
-                    <div className='container'>
-                    <div className='item'>
-                       <h2>No Data Found</h2>
-                    </div>
+                    <div className="item">
+                        <img src="/assets/loader.gif" alt=''/>
                     </div>
                 )
+              
 
             }
          
         }else{
-            return(
-                < div className='container'>
-                <div className='item'>
-                    <img src='/assets/loader (1).gif' alt=''/>
-                </div>
-                </div>
-            )
+              return(
+                    <div className="item">
+                        <h1>No Data Found</h1>
+                    </div>
+                )
+           
 
         }
     }
