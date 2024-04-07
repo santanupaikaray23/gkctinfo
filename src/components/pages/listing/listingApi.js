@@ -3,7 +3,7 @@ import axios from 'axios';
 import ListingDisplay from './listingDisplay';
 import { useParams } from 'react-router-dom';
 import './listing.css';
-const url = "http://localhost:9600/servicesdetail";
+const url = "https://node-api-freelance.onrender.com/servicesdetail";
 
 const Listing = () => {
   const [servicesDetail, setServicesDetail] = useState([]);

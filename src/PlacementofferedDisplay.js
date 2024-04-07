@@ -52,13 +52,6 @@ const Placementoffered =(props)=>{
   <p3>Opimion: {item.opinion3}</p3>
 
   </div>
-  <div className='card'>
-  <img src={item.image4} alt=""/>
-  <p3>{item.name4}</p3>
-  <h3>Placed in {item.company4}</h3>
-  <p3>Opimion: {item.opinion4}</p3>
-
-  </div>
   <div> </div>
 </Carousel>
 <hr/>

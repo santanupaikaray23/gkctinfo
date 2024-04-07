@@ -33,9 +33,7 @@
     font-weight: bold;
     font-family:Georgia, 'Times New Roman', Times, serif;
   }
-  .check{
 
-  }
   @media (max-width: 600px) {
     .placementofferedContainer {
       padding: 10px;
