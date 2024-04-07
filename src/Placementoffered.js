@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import PlacementofferedDisplay from './PlacementofferedDisplay';
 
 
-const url = "https://node-api-freelance.onrender.com/Placementoffered";
+const url = "http://localhost:9600/Placementoffered";
 
 class Placementoffered extends Component{
     constructor(){

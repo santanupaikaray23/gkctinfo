@@ -4,6 +4,7 @@ import QuickSearch from '../../QuickSearch'
 import Placementoffered from '../../../Placementoffered'
 // import {homeObjOne} from './Data'
 
+
 function Home() {
   return (
     <>

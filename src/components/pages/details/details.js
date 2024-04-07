@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import "./details.css";
-const url = "https://node-api-freelance.onrender.com/check";
+const url = "http://localhost:9600/check";
 
 const Details = () => {
     const [check, setCheck] = useState('');

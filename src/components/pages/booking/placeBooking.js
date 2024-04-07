@@ -32,7 +32,7 @@ const [loading, setLoading] = useState(false);
     
         try {
             setLoading(true);
-            const response = await fetch('https://node-api-freelance.onrender.com/addUsers', {
+            const response = await fetch('http://localhost:9600/addUsers', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

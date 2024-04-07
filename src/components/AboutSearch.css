@@ -1,0 +1,43 @@
+.imageContainer2{
+    background: url('https://gkctinfo.com/wp-content/uploads/2019/09/pic_paralax_2.jpg');
+    border-style: solid ;
+    border-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -22px;
+
+}
+.wrapper1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+
+.heading{
+    text-align:center;
+    color:rgba(52, 38, 245, 0.687);
+    font-size:36px;
+
+}
+
+span{
+     color: white;
+    letter-spacing: normal;
+    font-size:15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;    
+ 
+}
+h1{
+    color: white;
+    line-height: .01;
+    letter-spacing: normal;
+    font-size:38px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+
+    }
+}
