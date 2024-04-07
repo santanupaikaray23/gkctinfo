@@ -30,7 +30,7 @@ const Placementoffered =(props)=>{
                 return(
                    <div className='check'>  
                     
-                    <Carousel showDots={true} responsive={responsive}>
+                    <Carousel responsive={responsive}>
   <div className='card'>
   <img src={item.image1} alt=""/>
    <p3>{item.name1}</p3>

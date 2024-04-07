@@ -21,18 +21,12 @@ const Details = () => {
     return (
        
             <div className='panel panel-primary'>
-                <div className='panel-heading'>
-                    <h7>{check.name}</h7>
-                    <div className='panel-body'>
-                        <div className='row'>
-                              <div className='col-sm-12'>
+               <div className='col-sm-12'>
+                              <h7>{check.name}</h7>
                                 <img className='img-responsive' src={check.image} style={{height:400,width:1400}} alt=''/>
                               </div>
-                        </div>
-                    </div>
-                </div>
-                <h6>Do you really want to take this service?</h6>
-                <Link to="/" className="btn btn-danger">Back</Link>&nbsp;
+                       <h6>Do you really want to take this service?</h6>
+                <Link to="/" className="btn btn-danger">Back</Link>
             <Link to={`/booking/${check.name}`} className="btn btn-success">
                 Proceed
             </Link>
