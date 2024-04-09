@@ -11,36 +11,49 @@ class AboutOurStory extends Component{
                 <p3>WHAT WE DO</p3>
                <h2>Fresh Ideas for Every Business</h2>
                 <div className='AboutOurStoryContainer'>
-                    
-                 
-                    
-                   
                     </div>
-                   
-                  
-                   
-                </div>
+                    </div>
                 <div className='right'>
                 <div className='wrapper1'>
-                
-        <p2>
-        We are passionate about our work. Our designers stay ahead of the curve
-         to provide engaging and user-friendly website designs to make your business stand out.
-          Our developers are committed to maintaining the highest web standards so that your site 
-          will withstand the test of time. We care about your business, which is why we work with you.
-           admodum.
-       </p2>
-        
-        
-                   
+                <br/>
+                <div className='skill-box'>
+                    <span className='title'>Creative Approach</span>
+                    <div className='skill-bar'>
+                        <span className='skill-per html'>
+                            <span className='tooltiptext'>76%</span>
+                        </span>
                     </div>
-               
-                   
-                   
-    
+                    </div>
+                    <p4>Creative approaches are concerned with a holistic approach to education,
+                             focusing upon the learner becoming part of a professional community,
+                             involving the dimensions of knowledge, performance and identity formation.
+
+                        </p4>
+                    <br/>
                     
-    
-            </div>
+                    <div className='skill-box'>
+                    <span className='title'>Guaranteed Success</span>
+                    <div className='skill-bar'>
+                        <span className='skill-per app'>
+                            <span className='tooltiptext'>89%</span>
+                        </span>
+                       
+                    </div>
+                    </div>
+                    <p4>We are providing guaranteed success with 100% client satisfactory</p4>
+                    <div className='skill-box'>
+                    <span className='title'>SEO Optimization</span>
+                    <div className='skill-bar'>
+                        <span className='skill-per internship'>
+                            <span className='tooltiptext'>75%</span>
+                        </span>
+                        <p4>Search engine optimization is a set of technical and content practices 
+                            aimed at aligning a website page with a
+                             search engine’s ranking algorithm so it can be easily found, crawled, indexed</p4>
+                    </div>
+                    </div>
+                    </div>
+               </div>
             
         </div>
         

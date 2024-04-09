@@ -4,7 +4,7 @@ import './CareerQuickSearch.css';
 class CareerQuickSearch extends Component{
     render(){
         return(
-            <div>AboutQuickSearch</div>
+            <div>Work in Progress</div>
         )
     }
 }

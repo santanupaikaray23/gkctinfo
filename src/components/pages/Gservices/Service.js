@@ -1,15 +1,15 @@
 import React from 'react';
 import ServiceSearch from '../../ServiceSearch';
 import ServiceQuickSerch from '../../ServiceQuickSearch';
+import QuickSearch from '../../QuickSearch';
 
 const Service = () => {
     return(
-        <div className="work" id="work">
-        <div>
-            <ServiceSearch/>
-            <ServiceQuickSerch/>
-        </div>
-        </div>
+       <>
+       <ServiceSearch/>
+        <QuickSearch/>
+        <ServiceQuickSerch/>
+        </>
     )
 }
 

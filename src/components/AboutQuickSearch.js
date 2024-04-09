@@ -16,13 +16,8 @@ class AboutQuickSearch extends Component{
       will withstand the test of time. We care about your business, which is why we work with you.
        admodum.
    </p>
-    
-    
-               
-                </div>
-              
-               
-            </div>
+    </div>
+               </div>
             <div className='right'>
             <div className='AboutContainer'>
                 <div className='class="elementor-widget-container"'>

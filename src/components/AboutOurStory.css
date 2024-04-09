@@ -7,7 +7,7 @@
 
 .left, .right {
     flex: 1; /* Allows both sides to share space equally */
-    padding: 10px;
+    padding: 20px;
 }
 
 .AboutOurStoryContainer {
@@ -24,9 +24,96 @@
     overflow: hidden;
     background-size: cover;
     position: relative;
+    padding: 20px;
   
    
    
+}
+.title-text{
+    text-align: center;
+    background-color: crimson;
+    color: green;
+    font-weight: 400;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+  .skill-box{
+    width:100%;
+    margin: 20px 0;
+  } 
+  .skill-box .title{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+  }
+  .skill-box .skill-bar{
+    height: 6px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(0,0,0,0.1);
+  }
+  .skill-box .skill-per{
+    position: relative;
+    display: block;
+    height: 90%;
+    width: 95%;
+    border-radius: 6px;
+    background: crimson;
+    animation: progress 0.4s ease-in-out forwards; 
+    opacity: 1;
+   
+  }
+  .skill-per.website{
+    width: 76%;
+    animation-delay: 0.1s;
+  }
+  .skill-per.app{
+    width: 89%;
+    animation-delay: 0.2s;
+  }
+  .skill-per.internship{
+    width: 75%;
+    animation-delay: 0.3s;
+  }
+  
+   
+  @keyframes progress {
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+
+  }
+
+  .skill-per .tooltiptext{
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: crimson;
+    z-index: 1;
+  }
+
+.tooltiptext::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+    background-color: crimson;
+    transform: translateX(-50%) rotate(45deg);
 }
 
 @media (max-width: 768px) {
@@ -48,8 +135,10 @@
         font-size: 1.5rem; /* Smaller font size */
     }
 
-    p {
+    p4 {
         font-size: 1rem; /* Smaller font size */
+        height: auto;
+        display: none;
     }
 
     .AboutOurStoryContainer {
@@ -61,4 +150,5 @@
         width: 20px; /* Smaller play icon */
         height: auto;
     }
+    
 }

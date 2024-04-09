@@ -1,0 +1,83 @@
+.servicequicksearch {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: white;
+}
+h2{
+    font-weight: bold;
+}
+.left, .right {
+    flex: 1;
+    padding: 10px;
+}
+
+.ServiceQuickSearchContainer {
+    /* Adjustments to AboutContainer for responsiveness */
+    background: url(https://i.ibb.co/NtcGtmD/seo11.jpg);
+    width: 500px;
+    height: 300px;
+    max-width: 550px;
+    margin: auto;
+   
+    
+}
+
+.elementor-widget-container {
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+p{
+    text-align: left;
+    color: black;
+    letter-spacing: normal;
+    font-size:25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+p5{
+    text-align: left;
+    color: black;
+    letter-spacing: normal;
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+
+    }
+
+
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    .ServiceQuickSearchContainer {
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.5rem; /* Smaller font size */
+    }
+
+    p {
+        font-size: 1rem; /* Smaller font size */
+    }
+
+    .ServiceQuickSearchContainer  {
+        width: 100%; /* Takes a bit less space */
+        height: 70%;
+    }
+p5{
+    font-size: 1rem;
+}
+   
+}

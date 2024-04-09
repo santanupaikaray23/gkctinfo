@@ -5,7 +5,7 @@ class TeamSearch extends Component{
     render(){
         return(
             
-             <div>ServiceSearch</div>
+             <div>Work in Progress</div>
             
         )
     }
