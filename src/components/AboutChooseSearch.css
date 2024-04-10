@@ -1,10 +1,10 @@
-.about {
+.aboutchoosesearch {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
     background-color: white;
 }
-h2{
+h{
     font-weight: bold;
 }
 .left, .right {
@@ -12,9 +12,9 @@ h2{
     padding: 10px;
 }
 
-.AboutContainer {
+.AboutChooseSearchContainer {
     /* Adjustments to AboutContainer for responsiveness */
-    background: url(https://i.ibb.co/BBxjnC8/about-us-img-01.png);
+    background: url(https://i.ibb.co/9wgsYMx/images.png);
     width: 500px;
     height: 500px;
     max-width: 550px;
@@ -67,7 +67,7 @@ h2{
         width: 100%;
     }
 
-    .AboutContainer {
+    .AboutChooseSearchContainer {
         height: auto;
     }
 }
@@ -81,13 +81,10 @@ h2{
         font-size: 1rem; /* Smaller font size */
     }
 
-    .AboutContainer {
+    .AboutChooseSearchContainer {
         width: 100%; /* Takes a bit less space */
-        height: 140%;
+        height: 100%;
     }
 
-    svg.play-icon {
-        width: 20px; /* Smaller play icon */
-        height: auto;
-    }
+   
 }

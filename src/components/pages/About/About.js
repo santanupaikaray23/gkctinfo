@@ -4,6 +4,7 @@ import AboutQuickSearch from '../../AboutQuickSearch'
 // import {homeObjOne} from './Data'
 import AboutOurStory from '../../AboutOurStory'
 import AboutOurStorySearch from '../../AboutOurStorySearch'
+import AboutChooseSearch from '../../AboutChooseSearch'
 
 
 function About() {
@@ -13,6 +14,7 @@ function About() {
       <AboutQuickSearch/>
       <AboutOurStory/>
       <AboutOurStorySearch/>
+      <AboutChooseSearch/>
       
     </>
   )

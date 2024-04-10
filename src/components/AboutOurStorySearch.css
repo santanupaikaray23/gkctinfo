@@ -1,0 +1,69 @@
+.aboutourstorysearch {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: white;
+}
+h2{
+    font-weight: bold;
+}
+.left, .right {
+    flex: 1;
+    padding: 10px;
+}
+
+.timeline-container {
+    width: 100%;
+    max-width: 600px; /* Adjust based on your preference */
+    margin: auto;
+    position: relative;
+}
+
+.timeline-event {
+    display: flex;
+    margin-bottom: 20px; /* Space between events */
+}
+
+.event-date {
+    font-weight: bold;
+    margin-right: 10px; /* Space between date and description */
+}
+
+.event-description {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Optional: Add a line to connect the events */
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    left: 50px; /* Adjust based on your layout */
+    top: 0;
+    bottom: 0;
+    width: 2px; /* Line thickness */
+    background-color: #333; /* Line color */
+}
+
+
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.5rem; /* Smaller font size */
+    }
+
+    p {
+        font-size: 1rem; /* Smaller font size */
+    }
+
+    .AboutContainer {
+        width: 100%; /* Takes a bit less space */
+        height: 100%;
+    }
+
+    svg.play-icon {
+        width: 20px; /* Smaller play icon */
+        height: auto;
+    }
+}
