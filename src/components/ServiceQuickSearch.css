@@ -1,83 +1,70 @@
 .servicequicksearch {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 20px;
-    background-color: white;
 }
-h2{
-    font-weight: bold;
-}
+
 .left, .right {
     flex: 1;
-    padding: 10px;
 }
 
 .ServiceQuickSearchContainer {
-    /* Adjustments to AboutContainer for responsiveness */
+    /* Styles for the container */
     background: url(https://i.ibb.co/NtcGtmD/seo11.jpg);
     width: 500px;
-    height: 300px;
+    height: 400px;
     max-width: 550px;
     margin: auto;
-   
-    
-}
-
-.elementor-widget-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
     padding: 20px;
-    background-color: #fff; 
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
 }
-p{
+
+.wrapper3 {
+    padding: 20px;
+}
+p,p5{
     text-align: left;
     color: black;
     letter-spacing: normal;
-    font-size:25px;
+    font-size:15px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    
 }
 
-p5{
-    text-align: left;
-    color: black;
-    letter-spacing: normal;
-    font-size:20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    
-
-    }
-
-
+/* Reduce padding and adjust layout on smaller screens */
 @media (max-width: 768px) {
-    .about {
+    .servicequicksearch {
         flex-direction: column;
+        padding: 10px;
     }
 
     .left, .right {
-        width: 100%;
+        flex: none; /* Disable flex to stack them */
+        margin-bottom: 20px;
     }
 
-    .ServiceQuickSearchContainer {
-        height: auto;
-    }
-}
-
-@media (max-width: 480px) {
-    h2 {
-        font-size: 1.5rem; /* Smaller font size */
-    }
-
-    p {
-        font-size: 1rem; /* Smaller font size */
-    }
-
-    .ServiceQuickSearchContainer  {
-        width: 100%; /* Takes a bit less space */
-        height: 70%;
-    }
-p5{
-    font-size: 1rem;
-}
    
+}
+
+/* Further adjustments for very small screens */
+@media (max-width: 480px) {
+    .servicequicksearch {
+        padding: 5px;
+    }
+
+    .left h2, .right p {
+        font-size: 14px; /* Smaller font sizes for smaller devices */
+    }
+    .ServiceQuickSearchContainer {
+        
+            width: 100%; /* Takes a bit less space */
+            height: 100%;
+            padding: 50%;
+      
+
+    }
 }

@@ -26,6 +26,7 @@ h2{
     overflow: hidden;
     background-size: cover;
     position: relative;
+    padding: 100px; 
 }
 
 .elementor-widget-container {

@@ -13,7 +13,7 @@ function ServiceSearch() {
             <div className='heading'>
                     <div className='wrapper1'>
                         <h1>SEO Services</h1><br/>                        
-                    <span class="gt3_pagination_delimiter">Home .&nbsp;SEO Services</span>
+                    <span class="gt3_pagination_delimiter">Home •&nbsp;SEO Services</span>
                     </div>
                 </div>
             </div>

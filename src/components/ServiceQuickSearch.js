@@ -23,9 +23,9 @@ class ServiceQuickSearch extends Component{
                  student the opportunity for career
                  exploration and development, and to learn new skills.
                 </p>
-                <p5><sapn>.</sapn> Receive remarkable results.</p5>
-                <p5><sapn>.</sapn> Help them build their business.</p5>
-                <p5><sapn>.</sapn> Digital consultants.</p5>
+                <p5><sapn>•</sapn> Receive remarkable results.</p5>
+                <p5><sapn>•</sapn> Help them build their business.</p5>
+                <p5><sapn>•</sapn> Digital consultants.</p5>
                
                     </div>
                </div>

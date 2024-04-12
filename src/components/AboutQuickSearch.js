@@ -32,11 +32,7 @@ class AboutQuickSearch extends Component{
              
                 
                
-                </div>
-               
-               
-
-                
+                </div>     
 
         </div>
         
