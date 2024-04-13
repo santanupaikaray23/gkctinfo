@@ -5,8 +5,14 @@ class ContactSearch extends Component{
     render(){
         return(
             
-            <div>Work in Progress</div>
-            
+            <div className='imageContainer5'>
+            <div className='heading'>
+                    <div className='wrapper1'>
+                        <h1>Contact Us</h1><br/>                        
+                    <span class="gt3_pagination_delimiter">Home •&nbsp;Contact Us</span>
+                    </div>
+                </div>
+            </div>  
         )
     }
 }

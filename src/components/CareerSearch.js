@@ -5,7 +5,14 @@ class CareerSearch extends Component{
     render(){
         return(
             
-            <div>Work in Progress</div>
+            <div className='imageContainer3'>
+            <div className='heading'>
+                    <div className='wrapper1'>
+                        <h1>Career</h1><br/>                        
+                    <span class="gt3_pagination_delimiter">Home •&nbsp;Career</span>
+                    </div>
+                </div>
+            </div>  
             
         )
     }
