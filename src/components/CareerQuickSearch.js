@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import CareerDisplay from '../components/CareerDisplay';
 
 
- const url = "http://localhost:9600/jobs";
+ const url = "https://node-api-freelance.onrender.com/jobs";
 
 class QuickSearch extends Component{
     constructor(){
