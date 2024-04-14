@@ -1,11 +1,31 @@
 import React, {Component} from 'react';
-import './CareerQuickSearch.css';
+import CareerDisplay from '../components/CareerDisplay';
 
-class CareerQuickSearch extends Component{
+
+ const url = "http://localhost:9600/jobs";
+
+class QuickSearch extends Component{
+    constructor(){
+        super()
+
+        this.state={
+            jobType:''
+        }
+    }
     render(){
         return(
-            <div>Work in Progress</div>
+           <CareerDisplay servicedata={this.state.jobType}/>
         )
     }
+
+    componentDidMount(){
+        fetch(url,{method:"GET"})
+        .then((res)=>res.json())
+        .then((data)=>{
+            this.setState({jobType:data})
+        })
+    }
+
+  
 }
-export default CareerQuickSearch;
+export default QuickSearch;
