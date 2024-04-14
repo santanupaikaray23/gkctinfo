@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import './careerlisting.css';
 import CareerlistingDisplay from '../careerlisting/careerlistingDisplay';
+
 const url = "https://node-api-freelance.onrender.com/servicesdetail";
 
 const Careerlisting = () => {

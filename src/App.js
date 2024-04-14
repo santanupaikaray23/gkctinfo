@@ -12,7 +12,8 @@ import Career from './components/pages/Career/Career';
 import Team from './components/pages/Team/Team';
 import Contact from './components/pages/Contact/Contact';
 import Blog from './components/pages/Blog/Blog';
-import CareerlistingApi from './components/pages/careerlisting/careerlistingApi'
+import CareerlistingApi from './components/pages/careerlisting/careerlistingApi';
+import CareerBooking from './components/pages/careerbooking/careerBooking';
 
 
 
@@ -32,6 +33,7 @@ function App() {
     <Route path='/details/:id' component={Detail}/>
     <Route path="/booking/:check_name" component={PlaceBooking}/>
     <Route path="/careerlist/:id" component={CareerlistingApi}/>
+    <Route path="/careerbooking/:item_name" component={CareerBooking}/>
    
         
    

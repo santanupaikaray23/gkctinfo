@@ -22,7 +22,7 @@ const CareerlistingDisplay = (props) => {
                                 </div>
                                 <div className='col-md-7'>
                                    <div className='service_name'> 
-                                 <Link to={`/booking/${item.name}`} >Apply Now !</Link>
+                                 <Link to={`/careerbooking/${item.name}`} >Apply Now !</Link>
                                  
                                  </div>
                                 </div>
