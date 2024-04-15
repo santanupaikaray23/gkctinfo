@@ -7,7 +7,7 @@ const TeamDisplay = (props)=>{
     if(teamdata){
         return teamdata.map((item)=>{
             return(
-                <Link to={`/list/${item._id}`}>
+                <Link to={`/teamlist/${item._id}`}>
                     <div className='tileContainer'>
                         <div className='tileComponent1'>
                             <img src={item.image} alt="" />

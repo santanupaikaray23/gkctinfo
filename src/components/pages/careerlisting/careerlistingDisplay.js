@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const CareerlistingDisplay = (props) => {
     const renderCareerlist = ({careerlistdata})=>{
         if(careerlistdata){
-            if(careerlistdata.length>1){
+            if(careerlistdata.length>0){
                 return careerlistdata.map((item)=>{
                     return(
                         <div className='item'>

@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import TeamListingDisplay from '../teamlisting/teamlistingDisplay';
 import { useParams } from 'react-router-dom';
 import './teamlisting.css';
-import TeamlistingDisplay from '../teamlisting/teamlistingDisplay';
-
 const url = "https://node-api-freelance.onrender.com/servicesdetail";
 
 const Teamlisting = () => {
@@ -23,7 +22,7 @@ const Teamlisting = () => {
   return (
     <div className='row'>
       <div className='col-md-12'>
-        <TeamlistingDisplay teamlistdata={servicesDetail} />
+        <TeamListingDisplay teamlistdata={servicesDetail} />
       </div>
     </div>
   );
