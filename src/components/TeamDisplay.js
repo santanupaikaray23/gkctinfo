@@ -3,14 +3,14 @@ import './TeamQuickSearch.css';
 import {Link} from 'react-router-dom';
 
 const TeamDisplay = (props)=>{
-   const listService = ({teamdata})=>{
+   const listTeam = ({teamdata})=>{
     if(teamdata){
         return teamdata.map((item)=>{
             return(
                 <Link to={`/list/${item._id}`}>
                     <div className='tileContainer'>
                         <div className='tileComponent1'>
-                            <img src={item.image} alt=""/>
+                            <img src={item.image} alt="" />
 
                         </div>
                         <div className='tileComponent2'>
@@ -43,7 +43,7 @@ const TeamDisplay = (props)=>{
 
         </p>
         <br/>
-        {listService(props)}
+        {listTeam(props)}
     </div>
    
    )

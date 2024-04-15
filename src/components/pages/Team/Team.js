@@ -4,7 +4,7 @@ import TeamQuickSearch from '../../TeamQuickSearch';
 // import {homeObjOne} from './Data'
 
 
-function About() {
+function Team() {
   return (
     <>
       <TeamSearch/>
@@ -14,4 +14,4 @@ function About() {
   )
 }
 
-export default About
+export default Team

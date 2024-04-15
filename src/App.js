@@ -14,7 +14,7 @@ import Contact from './components/pages/Contact/Contact';
 import Blog from './components/pages/Blog/Blog';
 import CareerlistingApi from './components/pages/careerlisting/careerlistingApi';
 import CareerBooking from './components/pages/careerbooking/careerBooking';
-
+import TeamlistingApi from './components/pages/teamlisting/teamlistingApi';
 
 
 function App() {
@@ -34,6 +34,7 @@ function App() {
     <Route path="/booking/:check_name" component={PlaceBooking}/>
     <Route path="/careerlist/:id" component={CareerlistingApi}/>
     <Route path="/careerbooking/:item_name" component={CareerBooking}/>
+    <Route path="/teamlist/:id" component={TeamlistingApi}/>
    
         
    
