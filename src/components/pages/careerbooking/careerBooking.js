@@ -4,7 +4,7 @@ import "./careerBooking.css";
 import Spinner from "../spinner/spinner";
 import swal from 'sweetalert';
 
-export default function PlaceBooking(){
+export default function CareerBooking(){
     const { item_name } = useParams();
     const [user, setUser] = useState({
         item_name: item_name, // Directly use check_name obtained from useParams
