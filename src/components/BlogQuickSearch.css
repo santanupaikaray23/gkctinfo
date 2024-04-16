@@ -1,0 +1,71 @@
+.blogquicksearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Basic styles for left and right sections */
+.left, .right {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Wrapper and content styles */
+.wrapper4 {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.blogquicksearchContainer {
+  background: url(https://i.ibb.co/M8WBz3p/5.png);
+  width: 700px;
+  height: 400px;
+  max-width: 550px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-size: cover;
+  position: relative;
+  padding: 20px;
+  
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .aboutourstory {
+        flex-direction: column;
+    }
+    .p4{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper4 {
+        padding: 10px;
+    }
+    .blogquicksearchContainer {
+      width: 100%; /* Takes a bit less space */
+      height: 140%;
+      padding: 55%;
+  }
+
+    .skill-bar {
+        height: 15px;
+    }
+
+    .skill-per {
+        height: 15px;
+    }
+    .skill-box {
+        margin: 40px 20px 5px;
+    }
+    p4{
+        display: none;
+    }
+}
