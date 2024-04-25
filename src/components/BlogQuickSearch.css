@@ -40,9 +40,7 @@
     .aboutourstory {
         flex-direction: column;
     }
-    .p4{
-        display: none;
-    }
+   
 }
 
 @media (max-width: 480px) {
@@ -55,17 +53,5 @@
       padding: 55%;
   }
 
-    .skill-bar {
-        height: 15px;
-    }
-
-    .skill-per {
-        height: 15px;
-    }
-    .skill-box {
-        margin: 40px 20px 5px;
-    }
-    p4{
-        display: none;
-    }
+    
 }

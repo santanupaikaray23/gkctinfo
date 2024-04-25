@@ -9,8 +9,9 @@ export default function CareerBooking(){
     const [user, setUser] = useState({
         item_name: item_name, // Directly use check_name obtained from useParams
         email: "",
-        phone: "",
-        experience:""
+        phone: ""
+      
+
        
     });
 
@@ -50,7 +51,7 @@ const [loading, setLoading] = useState(false);
                     name:"",
                     email: "",
                     phone: "",
-                    experience:""
+                   
                     
                 });
             } else {
@@ -85,11 +86,6 @@ const [loading, setLoading] = useState(false);
                 <label> Enter your Phone Number :</label>
                  <input type="phone" name="phone" placeholder="phone" id="phone" required autoComplete="off"
                  value={user.phone} onChange={handleInput} className="form-control"/>
-                 </div>
-                 <div className="form-group">
-                <label> Enter your Total Years of Experience :</label>
-                 <input type="experience" name="experience" placeholder="total experience" id="experience" required autoComplete="off"
-                 value={user.experience} onChange={handleInput} className="form-control"/>
                  </div>
                  <button type="submit" className="btn btn-success" disabled={loading}>{loading ? 'Subnitting Plz Wait...':'Submit'}</button>
 

@@ -5,9 +5,9 @@ import Spinner from "../spinner/spinner";
 import swal from 'sweetalert';
 
 export default function PlaceBooking(){
-    const { check_name } = useParams();
+    const { item_name } = useParams();
     const [user, setUser] = useState({
-        check_name: check_name, // Directly use check_name obtained from useParams
+        item_name: item_name, // Directly use check_name obtained from useParams
         email: "",
         phone: "",
        
@@ -45,7 +45,7 @@ const [loading, setLoading] = useState(false);
 
                 swal("Submited Successfully");
                 setUser({
-                    check_name: check_name,
+                    item_name: item_name,
                     name:"",
                     email: "",
                     phone: ""
@@ -65,18 +65,9 @@ const [loading, setLoading] = useState(false);
       
             <div className="panel panel-primary">
                 <div className="panel-heading">
-                    Booking
+                {item_name}
                 </div>
             <form onSubmit={handleSubmit}>
-                <div className="form-group">
-                    <label>Service Name:</label>
-                    <input
-                        name="check_name"
-                        value={check_name}
-                        className="form-control"
-                        readOnly
-                    />
-                </div>
                 {/* The rest of your form */}
                 <div className="form-group">
                 <label> Enter your Name :</label>
