@@ -14,7 +14,7 @@ function HeroSection({
     useEffect(() => {
         init(textRef.current, { 
             showCursor: false,
-            strings: ["Internship & Training", "Web Development", "App Development", "Digital Marketing", "Consulting", "Graphic Designing" ] 
+            strings: [ "Web Development", "App Development" ] 
         });
     }, []);
 
@@ -27,9 +27,9 @@ function HeroSection({
             <div className='heading'>
                 <div className='left'>
                     <div className='wrapper'>
-                        <h5>WelCome</h5><br/><br/>
+                        <h5> &nbsp; </h5><br/><br/>
                          <p ref={textRef}></p><br/>
-                        <p1>Ensuring the best return on investment for your bespoke Internship and Training.</p1><br/>
+                        <p1>Ensuring the best return on investment for your bespoke.</p1><br/>
                         <Link to="/contact">
                               <Button buttonSize='btn--wide' buttonColor='blue'>Contact Us Today</Button>
                              </Link>
