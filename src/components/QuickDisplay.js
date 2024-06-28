@@ -18,7 +18,7 @@ const QuickDisplay = (props)=>{
                                 {item.name}
                              </div>
                              <div className='componentSubHeading'>
-                                Start your {item.name} with us.
+                             ଆପଣମାନଙ୍କ {item.name} ଆମ ସହିତ ଆରମ୍ଭ କରନ୍ତୁ ।
 
                              </div>
 
@@ -33,13 +33,13 @@ const QuickDisplay = (props)=>{
    return(
     <div className='quickSearchContainer'>
         <p className='quickSearchHeading'>
-            Our Services
+        ଆମର Services 
 
         </p>
-        <p className='quickSearchSubHeading'>
+        {/* <p className='quickSearchSubHeading'>
             Provide Awesome Service With Our Tools
 
-        </p>
+        </p> */}
         <br/>
         {listService(props)}
     </div>

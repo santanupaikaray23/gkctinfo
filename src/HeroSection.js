@@ -14,7 +14,7 @@ function HeroSection({
     useEffect(() => {
         init(textRef.current, { 
             showCursor: false,
-            strings: [ "Web Development", "App Development" ] 
+            strings: [ "ଆମେ Website ତିଆର କରୁ ", "ଆମେ Application  ତିଆର କରୁ " ] 
         });
     }, []);
 
@@ -29,9 +29,10 @@ function HeroSection({
                     <div className='wrapper'>
                         <h5> &nbsp; </h5><br/><br/>
                          <p ref={textRef}></p><br/>
-                        <p1>Ensuring the best return on investment for your bespoke.</p1><br/>
+                        <p1>ଆପଣଙ୍କ ବେପାରକୁ Online ନିଅନ୍ତୁ ।
+                            </p1><br/>
                         <Link to="/contact">
-                              <Button buttonSize='btn--wide' buttonColor='blue'>Contact Us Today</Button>
+                              <Button buttonSize='btn--wide' buttonColor='blue'>ଆଜିହିଁ ଯୋଗାଯୋଗ କରନ୍ତୁ </Button>
                              </Link>
                     </div>
                 </div>
