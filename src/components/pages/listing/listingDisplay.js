@@ -6,7 +6,7 @@ import './listing.css';
 const ListingDisplay = (props) => {
     const renderList = ({listdata})=>{
         if(listdata){
-            if(listdata.length>1){
+            if(listdata.length>0){
                 return listdata.map((item)=>{
                     return(
                         <div className='item'>

@@ -14,7 +14,7 @@ function HeroSection({
     useEffect(() => {
         init(textRef.current, { 
             showCursor: false,
-            strings: [ "ଆମେ Website ତିଆର କରୁ ", "ଆମେ Application  ତିଆର କରୁ " ] 
+            strings: [ "ଆମେ Website ତିଆର କରୁ ।", "ଆମେ Application  ତିଆର କରୁ ।" ] 
         });
     }, []);
 

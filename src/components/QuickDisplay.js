@@ -18,7 +18,7 @@ const QuickDisplay = (props)=>{
                                 {item.name}
                              </div>
                              <div className='componentSubHeading'>
-                             ଆପଣମାନଙ୍କ {item.name} ଆମ ସହିତ ଆରମ୍ଭ କରନ୍ତୁ ।
+                             ଆପଣମାନଙ୍କ {item.name} ପାଇଁ ଆମେ Website / Application ତିଆରି କରି ପାରିବୁ ।
 
                              </div>
 
