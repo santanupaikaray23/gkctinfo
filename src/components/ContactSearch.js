@@ -32,7 +32,7 @@ const [loading, setLoading] = useState(false);
     
         try {
             setLoading(true);
-            const response = await fetch('https://node-api-freelance.onrender.com/addUsers', {
+            const response = await fetch('https://node-api-freelance.onrender.com/addcontacts', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -86,7 +86,7 @@ const [loading, setLoading] = useState(false);
                  value={user.phone} onChange={handleInput} className="form-control"/>
                  </div>
                  <div className="form-group">
-                <label>ଆପଣଙ୍କ ଆମ ପାଇଁ କିଛି Message ଅଛି କି  ?:</label>
+                <label>ଆପଣଙ୍କ Message ଏଣ୍ଟର କରନ୍ତୁ ।:</label>
                  <input type="message" name="message" placeholder="message" id="message" required autoComplete="off"
                  value={user.message} onChange={handleInput} className="form-control"/>
                  </div>

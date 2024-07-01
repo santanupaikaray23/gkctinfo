@@ -16,7 +16,7 @@ const Footer = () => {
                      <div className="footer-link-items">
                      <h2>ଅଧିକ ସୂଚନା </h2>
                     <Link>naturewithcode@gmail.com</Link>
-                    <Link>Phone no. 912417110</Link>
+                    <Link>Phone no. 9668348106</Link>
                     
             </div>  
         </div>
