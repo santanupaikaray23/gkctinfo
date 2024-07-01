@@ -17,7 +17,8 @@ const ListingDisplay = (props) => {
                                 <div className='col-md-7'>
                                    <div className='service_name'> 
                                    <div className='type'>{item.name}</div>
-                                 <Link to={`/booking/${item.name}`}><br/>(Enroll Now)</Link>
+                                   <div className='type1'> ଆପଣମାନଙ୍କ {item.name} ପାଇଁ ଆମେ Website / Application ତିଆରି କରି ପାରିବୁ ।</div>
+                                 <Link to={`/booking/${item.name}`}><br/>(Register Now)</Link>
                                 
                                  </div>
                                 </div>

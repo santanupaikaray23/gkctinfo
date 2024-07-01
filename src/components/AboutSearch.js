@@ -9,7 +9,7 @@ function AboutSearch() {
         <div className='imageContainer2'>
             <div className='heading'>
                     <div className='wrapper1'>
-                        <h1>About Us</h1><br/>                        
+                        <h1>ଆମ ବିସୟରେ ଜାଣନ୍ତୁ ।</h1><br/>                        
                     <span class="gt3_pagination_delimiter">Home •&nbsp;About Us</span>
                     </div>
                 </div>

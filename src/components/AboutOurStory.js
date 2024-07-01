@@ -7,8 +7,8 @@ class AboutOurStory extends Component{
              <div className='aboutourstory' id='aboutourstory'>
                 <div className='left'>
                 <div className='wrapper2'>
-                <p3>WHAT WE DO</p3>
-               <h2>Fresh Ideas for Every Business</h2>
+                <p3>ଆମେ କଣ କରୁ ?</p3>
+               <h2>ଆପଣଙ୍କ ବେପାରକୁ ନୂତନ Idia ଦେଉ । </h2>
                 <div className='AboutOurStoryContainer'>
                    
                     </div>
@@ -16,21 +16,6 @@ class AboutOurStory extends Component{
                 <div className='right'>
                 <div className='wrapper1'>
                 <br/>
-                <div className='skill-box'>
-                    <div className='title'>Creative Approach</div>
-                    <div className='skill-bar'>
-                        <span className='skill-per html'>
-                            <span className='tooltiptext'>76%</span>
-                        </span>
-                    </div>
-                    </div>
-                    <p4>Creative approaches are concerned with a holistic approach to education,
-                             focusing upon the learner becoming part of a professional community,
-                             involving the dimensions of knowledge, performance and identity formation.
-
-                        </p4>
-                    <br/>
-                    
                     <div className='skill-box'>
                     <div className='title'>Guaranteed Success</div>
                     <div className='skill-bar'>

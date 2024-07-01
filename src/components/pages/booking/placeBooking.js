@@ -70,17 +70,17 @@ const [loading, setLoading] = useState(false);
             <form onSubmit={handleSubmit}>
                 {/* The rest of your form */}
                 <div className="form-group">
-                <label> Enter your Name :</label>
+                <label>ଆପଣଙ୍କ ନାମ ଏଣ୍ଟର କରନ୍ତୁ । :</label>
                  <input type="name" name="name" placeholder="name" id="name" required autoComplete="off"
                  value={user.name} onChange={handleInput} className="form-control"/>
                  </div>
                 <div className="form-group">
-                <label> Enter your Email Address :</label>
+                <label>ଆପଣଙ୍କ Email Address ଏଣ୍ଟର କରନ୍ତୁ । :</label>
                  <input type="email" name="email" placeholder="email" id="email" required autoComplete="off"
                  value={user.email} onChange={handleInput} className="form-control"/>
                  </div>
                  <div className="form-group">
-                <label> Enter your Phone Number :</label>
+                <label>ଆପଣଙ୍କ ଫୋନ ନମ୍ବର ଏଣ୍ଟର କରନ୍ତୁ । :</label>
                  <input type="phone" name="phone" placeholder="phone" id="phone" required autoComplete="off"
                  value={user.phone} onChange={handleInput} className="form-control"/>
                  </div>

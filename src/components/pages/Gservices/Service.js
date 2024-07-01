@@ -1,6 +1,5 @@
 import React from 'react';
 import ServiceSearch from '../../ServiceSearch';
-import ServiceQuickSerch from '../../ServiceQuickSearch';
 import QuickSearch from '../../QuickSearch';
 
 const Service = () => {
@@ -8,7 +7,6 @@ const Service = () => {
        <>
        <ServiceSearch/>
         <QuickSearch/>
-        <ServiceQuickSerch/>
         </>
     )
 }

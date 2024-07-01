@@ -32,7 +32,7 @@ const [loading, setLoading] = useState(false);
     
         try {
             setLoading(true);
-            const response = await fetch('https://node-api-freelance.onrender.com/addcontacts', {
+            const response = await fetch('https://node-api-freelance.onrender.com/addUsers', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -66,27 +66,27 @@ const [loading, setLoading] = useState(false);
             <div className="panel panel-primary">
               
                  <div className="panel-heading">
-                  Contact Us
+                 ଆମକୁ ଯୋଗା ଯୋଗ କରନ୍ତୁ ।
                 </div>
             <form onSubmit={handleSubmit}>
                 {/* The rest of your form */}
                 <div className="form-group">
-                <label> Enter your Name :</label>
+                <label>ଆପଣଙ୍କ ନାମ ଏଣ୍ଟେର କରନ୍ତୁ ।:</label>
                  <input type="name" name="name" placeholder="name" id="name" required autoComplete="off"
                  value={user.name} onChange={handleInput} className="form-control"/>
                  </div>
                 <div className="form-group">
-                <label> Enter your Email Address :</label>
+                <label>ଆପଣଙ୍କ Email Address ଏଣ୍ଟେର କରନ୍ତୁ ।:</label>
                  <input type="email" name="email" placeholder="email" id="email" required autoComplete="off"
                  value={user.email} onChange={handleInput} className="form-control"/>
                  </div>
                  <div className="form-group">
-                <label> Enter your Phone Number :</label>
+                <label>ଆପଣଙ୍କ ଫୋନ ନମ୍ବର ଏଣ୍ଟର କରନ୍ତୁ ।:</label>
                  <input type="phone" name="phone" placeholder="phone" id="phone" required autoComplete="off"
                  value={user.phone} onChange={handleInput} className="form-control"/>
                  </div>
                  <div className="form-group">
-                <label> Message For Us :</label>
+                <label>ଆପଣଙ୍କ ଆମ ପାଇଁ କିଛି Message ଅଛି କି  ?:</label>
                  <input type="message" name="message" placeholder="message" id="message" required autoComplete="off"
                  value={user.message} onChange={handleInput} className="form-control"/>
                  </div>

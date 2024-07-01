@@ -11,13 +11,14 @@ const Footer = () => {
             <div className="footer-link-wrapper">
                 <div className="footer-link-items">
                     <h2> ଯୋଗା ଯୋଗ ଠିକଣା </h2>
-                    <Link>ପାଖ କଲେଜ ଛକ, ନିରାକାରପୁର, ଖୋରଡ଼ା, ଓଡିଶା, ୭୫୨୦୧୯</Link>
+                    <Link>କଲେଜ ଛକ ପାଖ , ନିରାକାରପୁର, ଖୋରଡ଼ା, ଓଡିଶା, ୭୫୨୦୧୯</Link>
                     </div>
-                    {/* <div className="footer-link-items">
+                     <div className="footer-link-items">
+                     <h2>ଅଧିକ ସୂଚନା </h2>
                     <Link>naturewithcode@gmail.com</Link>
                     <Link>Phone no. 912417110</Link>
                     
-            </div>  */}
+            </div>  
         </div>
         </div>
 </div>

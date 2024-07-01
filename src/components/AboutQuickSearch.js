@@ -8,13 +8,12 @@ class AboutQuickSearch extends Component{
             <div className='about' id='about'>
             <div className='left'>
                 <div className='wrapper1'>
-           <h2>Boosts your Website Traffic!</h2>
+           <h2>ଆପଣଙ୍କର Website ଟ୍ରଫିସିକିକୁ Boost କରନ୍ତୁ !</h2>
     <p>
-    We are passionate about our work. Our designers stay ahead of the curve
-     to provide engaging and user-friendly website designs to make your business stand out.
-      Our developers are committed to maintaining the highest web standards so that your site 
-      will withstand the test of time. We care about your business, which is why we work with you.
-       admodum.
+    ଆମେ ଆମ କାମକୁ ନେଇକି ବହୁତ serious ଅଛୁ । ଆମର Designer ମାନେ ଆପଣଙ୍କ Website କୁ user - friendly ବନେଇବା ପାଇଁ ସଦାବେଳେ ଆଗରେ ଅଛନ୍ତି ।
+    ଆମ Developer ମାନେ ସଦାବେଳେ  commited ଅଛନ୍ତି maintain କରିବାକୁ highest Web standards ତେଣୁକରି ଆପଣଙ୍କ website will perform well.
+    ଆମେ ତମ Business ra care ନେବୁ । ସେଥିପାଇଁ ଆମେ ଏଠାରେ ଅଛୁ । 
+    
    </p>
     </div>
                </div>
