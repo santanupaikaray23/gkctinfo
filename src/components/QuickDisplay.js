@@ -21,6 +21,7 @@ const QuickDisplay = (props)=>{
                              ଆପଣମାନଙ୍କ {item.name} ପାଇଁ ଆମେ Website / Application ତିଆରି କରି ପାରିବୁ ।
 
                              </div>
+                             (Click here)
 
                         </div>
                     </div>

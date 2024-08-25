@@ -32,9 +32,12 @@ function HeroSection({
                         <p1>ଆପଣଙ୍କ ବେପାରକୁ Online ନିଅନ୍ତୁ ।
                             </p1><br/>
                         <Link to="/contact">
-                              <Button buttonSize='btn--wide' buttonColor='blue'>ଆଜିହିଁ ଯୋଗାଯୋଗ କରନ୍ତୁ </Button>
+                              <Button buttonSize='btn--wide' buttonColor='blue'>ଆଜିହିଁ ଯୋଗାଯୋଗ କରନ୍ତୁ ।</Button>
                              </Link>
                     </div>
+                    <div className='whatsapp_float'>
+        <a href='https://wa.me/918917310896' target='_blank' rel="noreferrer" ><img src='assets/whatapp.jpg' width="50px" className="whatsapp_float_btn" alt='whatsapp' /></a>
+      </div>
                 </div>
             </div>
         </div>
@@ -66,6 +69,7 @@ function HeroSection({
 
         // </div>
         // </>
+        
     
     );
 }
