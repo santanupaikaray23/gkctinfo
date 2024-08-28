@@ -33,7 +33,7 @@ export default function ContactSearch(){
 
         // Validate phone number before proceeding
         if (!validatePhone(user.phone)) {
-            setError('Please enter a valid 10-digit phone number.');
+            setError('ଦୟାକରି ଦଶ ଅଙ୍କ ବିଶିଷ୍ଟ ଫୋନ ନମ୍ବର ଏଣ୍ଟର କରନ୍ତୁ ।');
             return; // Stop form submission if the phone number is invalid
         }
 
@@ -68,7 +68,7 @@ export default function ContactSearch(){
     const validatePhone = (phone) => {
         const phoneRegex = /^[0-9]{10}$/; // Accepts 10-digit numbers only
         if (!phoneRegex.test(phone)) {
-            setError('Please enter a valid 10-digit phone number.');
+            setError('ଦୟାକରି ଦଶ ଅଙ୍କ ବିଶିଷ୍ଟ ଫୋନ ନମ୍ବର ଏଣ୍ଟର କରନ୍ତୁ ।');
             return false;
         } else {
             setError(''); // Clear error if validation passes
@@ -139,13 +139,13 @@ export default function ContactSearch(){
                         className="form-control"
                     />
                 </div>
-                <button type="submit" className="btn btn-success" disabled={loading}>
+                <button type="submit" className="btn btn-success" disabled={loading || error}>
                     {loading ? 'Submitting Plz Wait...' : 'Submit'}
                 </button>
             </form>
             {loading && (
                 <div className="fullscreen-loader">
-                    <Spinner/>
+                    <Spinner />
                 </div>
             )}
         </div>
