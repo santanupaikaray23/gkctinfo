@@ -18,10 +18,28 @@ const ListingDisplay = (props) => {
                                    <div className='service_name'> 
                                    <div className='type'>{item.name}</div>
                                    <div className='type1'> ଆପଣମାନଙ୍କ {item.name} ପାଇଁ ଆମେ Website / Application ତିଆରି କରି ପାରିବୁ ।</div>
-                                 <Link to={`/booking/${item.name}`}><br/>(Register Now)</Link>
+                                 <Link to={`/booking/${item.name}`}><br/>Enquiry କରନ୍ତୁ ।</Link>
+                                 <Link to={`/booking/${item.name}`}><br/>ରେଜିଷ୍ଟ୍ର କରନ୍ତୁ ।</Link>
                                 
                                  </div>
                                 </div>
+
+                            </div>
+                            <div className='row'>
+                                <div className='col-sm-3'>
+                                    <div className='cuisine'>Total Amount to Pay</div>
+                                    <div className='cuisine'>Minimum Amount to Pay</div>
+
+                                </div>
+                                {/* <div className='col-sm-7'>
+                                    <div className='cuisine_data'>
+                                        {item.type.totalamount}
+                                    </div>
+                                    <div className='cuisine_data'>
+                                        {item.type.minimumamount}
+
+                                    </div>
+                                </div> */}
 
                             </div>
                         </div>

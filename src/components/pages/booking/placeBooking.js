@@ -32,7 +32,7 @@ export default function PlaceBooking() {
     const validatePhone = (phone) => {
         const phoneRegex = /^[0-9]{10}$/; // Only allows 10-digit numbers
         if (!phoneRegex.test(phone)) {
-            setError('ଦୟାକରି ଦଶ ଅଙ୍କ ବିଶିଷ୍ଟ ଫୋନ ନମ୍ବର ଏଣ୍ଟର କରନ୍ତୁ ।');
+            setError('ଦୟାକରି ଦଶ ଅଙ୍କ ବିଶିଷ୍ଟ ଠିକ、ଫୋନ ନମ୍ବର ଏଣ୍ଟର କରନ୍ତୁ ।');
             return false;
         } else {
             setError(''); // Clear error if validation passes
@@ -45,7 +45,7 @@ export default function PlaceBooking() {
         
         // Prevent submission if phone number is invalid
         if (!validatePhone(user.phone)) {
-            setError('ଦୟାକରି ଦଶ ଅଙ୍କ ବିଶିଷ୍ଟ ଫୋନ ନମ୍ବର ଏଣ୍ଟର କରନ୍ତୁ ।');
+            setError('ଦୟାକରି ଦଶ ଅଙ୍କ ବିଶିଷ୍ଟ ଠିକ、ଫୋନ ନମ୍ବର ଏଣ୍ଟର କରନ୍ତୁ ।');
             return;
         }
 
