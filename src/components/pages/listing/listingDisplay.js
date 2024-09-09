@@ -18,8 +18,8 @@ const ListingDisplay = (props) => {
                                    <div className='service_name'> 
                                    <div className='type'>{item.name}</div>
                                    <div className='type1'> ଆପଣମାନଙ୍କ {item.name} ପାଇଁ ଆମେ Website / Application ତିଆରି କରି ପାରିବୁ ।</div>
-                                 <Link to={`/booking/${item.name}`}><br/>Enquiry କରନ୍ତୁ ।</Link>
-                                 <Link to={`/booking/${item.name}`}><br/>ରେଜିଷ୍ଟ୍ର କରନ୍ତୁ ।</Link>
+                                 <Link to={`/enquiry/${item.name}`}><br/>Enquiry Now !</Link>
+                                 <Link to={`/register/${item.name}`}><br/>Register Now !</Link>
                                 
                                  </div>
                                 </div>
@@ -27,19 +27,19 @@ const ListingDisplay = (props) => {
                             </div>
                             <div className='row'>
                                 <div className='col-sm-3'>
-                                    <div className='cuisine'>Total Amount to Pay</div>
-                                    <div className='cuisine'>Minimum Amount to Pay</div>
+                                    <div className='cuisine'>ସମ୍ପୂର୍ଣ Amount ଦେବାକୁ ହେବ :</div>
+                                    <div className='cuisine'>Minimum Amount ଏବେ ଦେବାକୁ ହେବ :</div>
 
                                 </div>
-                                {/* <div className='col-sm-7'>
+                                <div className='col-sm-7'>
                                     <div className='cuisine_data'>
-                                        {item.type.totalamount}
+                                        Rs.{item.total}
                                     </div>
                                     <div className='cuisine_data'>
-                                        {item.type.minimumamount}
+                                       Rs.{item.Minimum}
 
                                     </div>
-                                </div> */}
+                                </div> 
 
                             </div>
                         </div>
