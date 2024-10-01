@@ -18,8 +18,7 @@ const ListingDisplay = (props) => {
                                    <div className='service_name'> 
                                    <div className='type'>{item.name}</div>
                                    <div className='type1'> ଆପଣମାନଙ୍କ {item.name} ପାଇଁ ଆମେ Website / Application ତିଆରି କରି ପାରିବୁ ।</div>
-                                 <Link to={`/enquiry/${item.name}`}><br/>Enquiry Now !</Link>
-                                 <Link to={`/register/${item.name}`}><br/>Register Now !</Link>
+                                 
                                 
                                  </div>
                                 </div>
@@ -40,8 +39,11 @@ const ListingDisplay = (props) => {
 
                                     </div>
                                 </div> 
-
+                              
                             </div>
+                            <Link to={`/enquiry/${item.name}`}><br/>Enquiry Now !</Link>
+                                 <Link to={`/details/${item.name}`}><br/>Register Now !</Link>
+                              
                         </div>
                     )
                 })
@@ -50,6 +52,7 @@ const ListingDisplay = (props) => {
                 return(
                     <div className="item">
                         <img src="/assets/loader.gif" alt=''/>
+                        
                     </div>
                 )
               
@@ -72,6 +75,7 @@ const ListingDisplay = (props) => {
             <div className='main-heading'>
                 <div className='col-md-12'>
                     {renderList(props)}
+                 
                 </div>
             </div>
        
