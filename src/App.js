@@ -8,8 +8,9 @@ import PlaceBooking from './components/pages/enquiry/placeBooking';
 import About from './components/pages/About/About';
 import Service from './components/pages/Gservices/Service';
 import Contact from './components/pages/Contact/Contact';
-import registeritem from './components/pages/register/registeritem';
 import ProductDetails from './components/pages/details/productDetails';
+import PlacetwoBooking from './components/pages/booking/placetwoBooking';
+import BookingComponent from './components/pages/booking/bookingApi';
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
     <Route path='/contact' component={Contact}/>
     <Route path="/list/:id" component={ListingApi}/>
     <Route path="/enquiry/:item_name" component={PlaceBooking}/>
-    <Route path="/register/:item_name" component={registeritem}/>
+    <Route path="/booking/:item_name" component={PlacetwoBooking}/>
+    <Route path="/viewBooking" component={BookingComponent}/>
+    
    
    </Switch>
    <Footer/>
