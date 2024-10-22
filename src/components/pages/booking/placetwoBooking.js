@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-const url = "http://localhost:9600/addbooking";
+
+const url = "https://node-api-freelance.onrender.com/addbooking";
 
 class PlacetwoOrder extends Component {
     constructor(props) {
@@ -12,7 +13,7 @@ class PlacetwoOrder extends Component {
             phone: '',
             email: '',
             cost: sessionStorage.getItem('cost'),
-            errors: {} // New state to track validation errors
+            errors: {}
         };
     }
 
@@ -29,13 +30,11 @@ class PlacetwoOrder extends Component {
         let errors = {};
         let formIsValid = true;
 
-        // Name validation
         if (!name) {
             formIsValid = false;
             errors["name"] = "Name cannot be empty";
         }
 
-        // Email validation
         if (!email) {
             formIsValid = false;
             errors["email"] = "Email cannot be empty";
@@ -44,7 +43,6 @@ class PlacetwoOrder extends Component {
             errors["email"] = "Email is not valid";
         }
 
-        // Phone validation (assuming it should be 10 digits)
         if (!phone) {
             formIsValid = false;
             errors["phone"] = "Phone number cannot be empty";
@@ -57,10 +55,8 @@ class PlacetwoOrder extends Component {
         return formIsValid;
     }
 
-    // Function to handle form submission
     handleSubmit = () => {
         if (this.validateForm()) {
-            // If form is valid, submit data
             fetch(url, {
                 method: 'POST',
                 headers: {
@@ -69,14 +65,14 @@ class PlacetwoOrder extends Component {
                 },
                 body: JSON.stringify(this.state)
             })
-            .then(() => this.props.history.push('/viewBooking'));
+            .then(() => this.props.history.push('/placepayment'));
         } else {
-            // If form is invalid, show errors
             console.log("Form has errors:", this.state.errors);
         }
     }
 
     render() {
+       
         return (
             <div className="container">
                 <div className="panel panel-info">
@@ -142,6 +138,9 @@ class PlacetwoOrder extends Component {
                         >
                             Pay Now
                         </button>
+
+                        {/* QR Code for PhonePe payment */}
+                       
                     </div>
                 </div>
             </div>

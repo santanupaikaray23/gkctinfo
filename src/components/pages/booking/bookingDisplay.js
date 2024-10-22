@@ -1,43 +1,24 @@
 import React from 'react';
+import './bookingDisplay.css';
+import { QRCodeCanvas } from 'qrcode.react'; // Import QRCodeCanvas for QR generation
 
 const BookingDisplay = (props) => {
+    const { cost } = props; // Get cost from props
+    const payeeUPI = "paikaraysantanu@phonepe"; // Replace with actual UPI ID
+    const payeeName = "YourBusinessName";   // Replace with actual payee name
 
-    const renderTable = ({bookdata}) => {
-        if(bookdata){
-            return bookdata.map((item) => {
-                return(
-                    <tr>
-                        <td>{item.id}</td>
-                        <td>{item.item_name}</td>
-                        <td>{item.name}</td>
-                        <td>{item.phone}</td>
-                        <td>{item.email}</td>
-                        <td>{item.cost}</td>
-                    </tr>
-                )
-            })
-        }
-    }
-    return(
+    // Construct UPI payment URL
+    const upiUrl = `upi://pay?pa=${payeeUPI}&pn=${payeeName}&am=${cost}&cu=INR`;
+
+    return (
         <div className='container'>
-            <center><h2>Booking List</h2></center>
-            <table className="table table-reponsive">
-                <thead>
-                    <tr>
-                        <th>Order Id</th>
-                        <th>Item Name</th>
-                        <th>Name</th>
-                        <th>Phone</th>
-                        <th>Email</th>
-                        <th>Cost</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {renderTable(props)}
-                </tbody>
-
-            </table>
+            <div className="qr-section">
+                <h3>Scan to Pay with PhonePe</h3>
+                <QRCodeCanvas value={upiUrl} size={128} />
+                {/* <p>Total Cost: ₹{cost}</p> Display the cost */}
+            </div>
         </div>
-    )
+    );
 }
-export default BookingDisplay
+
+export default BookingDisplay;

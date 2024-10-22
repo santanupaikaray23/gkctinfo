@@ -1,27 +1,14 @@
-import React, { Component } from 'react';
-import axios from 'axios';
-import BookingDisplay from './bookingDisplay';
+import React from 'react';
+import BookingDisplay from '../booking/bookingDisplay'; // Import the BookingDisplay component
 
-const url = "http://localhost:9600/booking";
+const ParentComponent = () => {
+    const bookingCost = 1000; // You can set or calculate the cost dynamically
 
-class viewBooking extends Component {
-    constructor(){
-        super()
-
-        this.state={
-            booking:''
-        }
-    }
-    render(){
-        return(
-            <BookingDisplay bookdata={this.state.booking}/>
-        )
-    }
-
-    componentDidMount(){
-        axios.get(url).then((res)=>{this.setState({booking:res.data})})
-    }
-
+    return (
+        <div>
+        <BookingDisplay cost={bookingCost} /> {/* Pass cost as prop */}
+        </div>
+    );
 }
 
-export default viewBooking
+export default ParentComponent;

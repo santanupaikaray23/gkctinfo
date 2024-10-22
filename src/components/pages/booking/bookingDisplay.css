@@ -1,0 +1,55 @@
+.qr-section {
+    text-align: center;
+    padding: 60px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Adjust QR code size for smaller screens */
+.qr-section h3 {
+    font-size: 1.5em;
+}
+
+.qr-section p {
+    font-size: 1.2em;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    .qr-section {
+        padding: 60px;
+    }
+
+    .qr-section h3 {
+        font-size: 1.3em;
+    }
+
+    .qr-section p {
+        font-size: 1em;
+    }
+
+    .qr-section canvas {
+        width: 100px !important;
+        height: 100px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .qr-section {
+        padding: 60px;
+    }
+
+    .qr-section h3 {
+        font-size: 1.2em;
+    }
+
+    .qr-section p {
+        font-size: 0.9em;
+    }
+
+    .qr-section canvas {
+        width: 90px !important;
+        height: 90px !important;
+    }
+}

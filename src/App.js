@@ -25,7 +25,7 @@ function App() {
     <Route path="/list/:id" component={ListingApi}/>
     <Route path="/enquiry/:item_name" component={PlaceBooking}/>
     <Route path="/booking/:item_name" component={PlacetwoBooking}/>
-    <Route path="/viewBooking" component={BookingComponent}/>
+    <Route path="/placepayment" component={BookingComponent}/>
     
    
    </Switch>
