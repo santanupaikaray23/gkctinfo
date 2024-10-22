@@ -18,7 +18,7 @@
 /* Media Queries for Mobile Devices */
 @media (max-width: 768px) {
     .qr-section {
-        padding: 60px;
+        padding: 80px;
     }
 
     .qr-section h3 {
@@ -37,7 +37,7 @@
 
 @media (max-width: 480px) {
     .qr-section {
-        padding: 60px;
+        padding: 80px;
     }
 
     .qr-section h3 {
