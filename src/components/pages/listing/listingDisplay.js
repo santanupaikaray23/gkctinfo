@@ -24,13 +24,13 @@ const ListingDisplay = (props) => {
                                 </div>
 
                             </div>
-                            <div className='row'>
+                            {/* <div className='row'>
                                 <div className='col-sm-3'>
                                     <div className='cuisine'>ସମ୍ପୂର୍ଣ Amount ଆପଣଙ୍କୁ ଦେବାକୁ ହେବ :</div> Rs.{item.total}
                                     <div className='cuisine'>Minimum Amount ଆପଣଙ୍କୁ ଏବେ ଦେବାକୁ ହେବ :</div> Rs.{item.Minimum}
 
                                 </div>
-                               </div>
+                               </div> */}
                             <Link to={`/enquiry/${item.name}`}><br/>Enquiry Now !</Link>
                                  <Link to={`/details/${item.name}`}><br/>Register Now !</Link>
                               

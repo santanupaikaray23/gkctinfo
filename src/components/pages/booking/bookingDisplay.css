@@ -12,7 +12,13 @@
 }
 
 .qr-section p {
-    font-size: 1.2em;
+    font-size: 0.5em;
+}
+h5{
+    font-size: 1em;
+    font-weight: bolder;
+
+
 }
 
 /* Media Queries for Mobile Devices */
@@ -51,5 +57,27 @@
     .qr-section canvas {
         width: 90px !important;
         height: 90px !important;
+    }
+    .confirm-button {
+        margin-top: 15px;
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    .confirm-button:hover {
+        background-color: #218838;
+    }
+    
+    .confirmation-message {
+        margin-top: 20px;
+        padding: 15px;
+        border: 1px solid #28a745;
+        background-color: #d4edda;
+        color: #155724;
+        border-radius: 5px;
     }
 }

@@ -80,7 +80,7 @@ class PlacetwoOrder extends Component {
 
                     <div className="panel-body">
                         <div className="form-group">
-                            <label>Service Name</label>
+                            <label>Service Name :</label>
                             <input
                                 readOnly
                                 name="item_name"
@@ -90,7 +90,7 @@ class PlacetwoOrder extends Component {
                         </div>
 
                         <div className="form-group">
-                            <label>Cost</label>
+                            <label>Minimum Cost :</label>
                             <input
                                 readOnly
                                 name="cost"
@@ -100,7 +100,7 @@ class PlacetwoOrder extends Component {
                         </div>
 
                         <div className="form-group">
-                            <label>Email</label>
+                            <label>ଆପଣଙ୍କ Email Address ଏଣ୍ଟର କରନ୍ତୁ । :</label>
                             <input
                                 name="email"
                                 value={this.state.email}
@@ -111,7 +111,7 @@ class PlacetwoOrder extends Component {
                         </div>
 
                         <div className="form-group">
-                            <label>Name</label>
+                            <label>ଆପଣଙ୍କ ନାମ ଏଣ୍ଟର କରନ୍ତୁ । :</label>
                             <input
                                 name="name"
                                 value={this.state.name}
@@ -122,7 +122,7 @@ class PlacetwoOrder extends Component {
                         </div>
 
                         <div className="form-group">
-                            <label>Phone</label>
+                            <label>ଆପଣଙ୍କ ଫୋନ ନମ୍ବର ଏଣ୍ଟର କରନ୍ତୁ । :</label>
                             <input
                                 name="phone"
                                 value={this.state.phone}

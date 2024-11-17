@@ -11,6 +11,8 @@ import Contact from './components/pages/Contact/Contact';
 import ProductDetails from './components/pages/details/productDetails';
 import PlacetwoBooking from './components/pages/booking/placetwoBooking';
 import BookingComponent from './components/pages/booking/bookingApi';
+import BookingDisplay from './components/pages/booking/bookingDisplay';
+
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
     <Route path="/enquiry/:item_name" component={PlaceBooking}/>
     <Route path="/booking/:item_name" component={PlacetwoBooking}/>
     <Route path="/placepayment" component={BookingComponent}/>
+    <Route path="/" element={<BookingDisplay cost={1000} />} /> {/* Pass your cost here */}
     
    
    </Switch>

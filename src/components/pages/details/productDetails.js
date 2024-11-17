@@ -23,11 +23,11 @@ class ProductDetails extends Component {
                     <div className='panel-body'>
                         <div className='row'>
                             <div className='col-md-12'>
-<img className='img-responsive' src={this.state.Details.image} style={{height:250,width:1500}} alt='img'/>
+<img className='img-responsive' src={this.state.Details.image} style={{height:210,width:1500}} alt='img'/>
                             </div>
 <div className='col-md-6'>
-    <h3>ସମ୍ପୂର୍ଣ Amount ଦେବାକୁ ହେବ : Rs.{this.state.Details.total}</h3>
-    <h3>Minimum Amount ଏବେ ଦେବାକୁ ହେବ : Rs.{this.state.Details.Minimum}</h3>
+    <h3>ଏହି ସର୍ଭିସ ପାଇଁ ଆପଣଙ୍କୁ ସମ୍ପୂର୍ଣ Amount ଦେବାକୁ ହେବ : Rs.{this.state.Details.total}</h3>
+    <h3>ଏବେ Minimum Amount ଦେବାକୁ ହେବ : Rs.{this.state.Details.Minimum}</h3>
 </div>
                         </div>
                         <Link to="/" className="btn btn-danger">Back</Link> &nbsp;
